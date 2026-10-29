@@ -1,2 +1,4 @@
 # The delivered client artifact is the compiled binary itself (tracked).
-# Nothing else ships.
+# A real .env holds live secrets — never commit it. The example is tracked.
+.env
+!.env.example
